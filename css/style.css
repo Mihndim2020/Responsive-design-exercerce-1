@@ -66,6 +66,7 @@ header .display-bar {
   margin: 7px;
 }
 
+/* this is for mobile phones  */
 [class*="col-"] {
   width: 100%;
 }
