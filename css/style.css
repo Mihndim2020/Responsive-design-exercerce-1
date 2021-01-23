@@ -43,3 +43,30 @@ header .display-bar {
   padding: 15px;
 }
 /* just for mapping out the page */
+.hero-area {
+  width: 100%;
+  height: 40vh;
+  background-color: blue;
+}
+.hero-area div {
+  width: 100%;
+  height: 32%;
+  background-color: blueviolet;
+  margin: 7px;
+}
+.latest-news {
+  width: 100%;
+  height: 60vh;
+  background-color: rgb(105, 43, 92);
+}
+.latest-news .latest-news-items{
+  width: 100%;
+  height: 11.5%;
+  background-color: blueviolet;
+  margin: 7px;
+}
+
+[class*="col-"] {
+  width: 100%;
+}
+
