@@ -161,14 +161,23 @@ header .display-bar {
 .hero-area .hero-area-items {
   background-color: darkkhaki;
   border: cornsilk 0.5px solid;
-
 }
 
 .latest-news {
   background-color: rgb(105, 43, 92);
+  margin-bottom: 20px;
 }
 
 .latest-news .latest-news-items {
   background-color: blueviolet;
+  border: cornsilk 0.5px solid;
+}
+
+.latest-funding-rounds {
+  background-color: darkslategrey;
+}
+
+.latest-funding-rounds-items {
+  background-color: forestgreen;
   border: cornsilk 0.5px solid;
 }
