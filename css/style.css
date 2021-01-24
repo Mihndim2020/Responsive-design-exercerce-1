@@ -190,5 +190,15 @@ header .display-bar {
 
 .tech-news-items {
   background-color: rgb(17, 54, 17);
-  border:cornsilk 0.5px solid;
+  border: cornsilk 0.5px solid;
+}
+
+.latest-deals {
+  background-color: violet;
+  margin-bottom: 20px;
+}
+
+.latest-deals-items {
+  background-color: yellowgreen;
+  border: cornsilk 0.5px solid;
 }
