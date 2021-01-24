@@ -163,6 +163,10 @@ header .display-bar {
   border: cornsilk 0.5px solid;
 }
 
+.right-sides{
+  float: right;
+}
+
 .latest-news {
   background-color: rgb(105, 43, 92);
   margin-bottom: 20px;
@@ -201,4 +205,10 @@ header .display-bar {
 .latest-deals-items {
   background-color: yellowgreen;
   border: cornsilk 0.5px solid;
+}
+
+footer {
+  height: 20px;
+  background-color: black;
+  margin-bottom: 20px;
 }
