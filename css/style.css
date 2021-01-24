@@ -36,37 +36,15 @@ header .display-bar {
 .grid-rows::after {
   content: "";
   clear: both;
-  padding: 15px;
+  display: table;
 }
 [class*="col-"] {
   float: left;
   padding: 15px;
 }
-/* just for mapping out the page */
-.hero-area {
-  width: 100%;
-  height: 40vh;
-  background-color: blue;
-}
-.hero-area div {
-  width: 100%;
-  height: 32%;
-  background-color: blueviolet;
-  margin: 7px;
-}
-.latest-news {
-  width: 100%;
-  height: 60vh;
-  background-color: rgb(105, 43, 92);
-}
-.latest-news .latest-news-items {
-  width: 100%;
-  height: 11.5%;
-  background-color: blueviolet;
-  margin: 7px;
-}
 
 /* this is for mobile phones  */
+
 [class*="col-"] {
   width: 100%;
 }
@@ -74,80 +52,123 @@ header .display-bar {
 /* this is for tablets */
 
 @media only screen and (min-width: 600px) {
-  .col-s-1 {
+  .col-tab-1 {
     width: 8.33%;
   }
-  .col-s-2 {
+
+  .col-tab-2 {
     width: 16.66%;
   }
-  .col-s-3 {
+
+  .col-tab-3 {
     width: 25%;
   }
-  .col-s-4 {
+
+  .col-tab-4 {
     width: 33.33%;
   }
-  .col-s-5 {
+
+  .col-tab-5 {
     width: 41.66%;
   }
-  .col-s-6 {
+
+  .col-tab-6 {
     width: 50%;
   }
-  .col-s-7 {
+
+  .col-tab-7 {
     width: 58.33%;
   }
-  .col-s-8 {
+
+  .col-tab-8 {
     width: 66.66%;
   }
-  .col-s-9 {
+
+  .col-tab-9 {
     width: 75%;
   }
-  .col-s-10 {
+
+  .col-tab-10 {
     width: 83.33%;
   }
-  .col-s-11 {
+
+  .col-tab-11 {
     width: 91.66%;
   }
-  .col-s-12 {
+
+  .col-tab-12 {
     width: 100%;
   }
 }
 
 /* this is for desktop view  */
 @media only screen and (min-width: 768px) {
-  .col-1 {
+  .col-desk-1 {
     width: 8.33%;
   }
-  .col-2 {
+
+  .col-desk-2 {
     width: 16.66%;
   }
-  .col-3 {
+
+  .col-desk-3 {
     width: 25%;
   }
-  .col-4 {
+
+  .col-desk-4 {
     width: 33.33%;
   }
-  .col-5 {
+
+  .col-desk-5 {
     width: 41.66%;
   }
-  .col-6 {
+
+  .col-desk-6 {
     width: 50%;
   }
-  .col-7 {
+
+  .col-desk-7 {
     width: 58.33%;
   }
-  .col-8 {
+
+  .col-desk-8 {
     width: 66.66%;
   }
-  .col-9 {
+
+  .col-desk-9 {
     width: 75%;
   }
-  .col-10 {
+
+  .col-desk-10 {
     width: 83.33%;
   }
-  .col-11 {
+
+  .col-desk-11 {
     width: 91.66%;
   }
-  .col-12 {
+
+  .col-desk-12 {
     width: 100%;
   }
+}
+/* just for mapping out the page */
+
+.hero-area {
+  background-color: rgb(43, 226, 89);
+  margin-bottom: 20px;
+}
+
+.hero-area .hero-area-items {
+  background-color: darkkhaki;
+  border: cornsilk 0.5px solid;
+
+}
+
+.latest-news {
+  background-color: rgb(105, 43, 92);
+}
+
+.latest-news .latest-news-items {
+  background-color: blueviolet;
+  border: cornsilk 0.5px solid;
 }
