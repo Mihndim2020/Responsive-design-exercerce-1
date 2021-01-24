@@ -175,9 +175,20 @@ header .display-bar {
 
 .latest-funding-rounds {
   background-color: darkslategrey;
+  margin-bottom: 20px;
 }
 
 .latest-funding-rounds-items {
   background-color: forestgreen;
   border: cornsilk 0.5px solid;
+}
+
+.tech-news {
+  background-color: fuchsia;
+  margin-bottom: 20px;
+}
+
+.tech-news-items {
+  background-color: rgb(17, 54, 17);
+  border:cornsilk 0.5px solid;
 }
